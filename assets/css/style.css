@@ -7,7 +7,7 @@
 
 }
 nav{
-    
+    position: relative;
 }
 nav button {
     height: auto;

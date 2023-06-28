@@ -1,0 +1,12 @@
+{
+    "event": "make bank",
+    "time": "1 hour",
+    "address": {
+        "street": "10 Downing Street",
+        "city": "London"
+    },
+    "phone": [
+        "+44 1234567",
+        "+44 2345678"
+    ]
+}
