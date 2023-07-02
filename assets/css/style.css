@@ -14,4 +14,6 @@ nav button {
     width:auto;
     margin: 0px;
 }
-
+div .card {
+    margin: 10px;
+}

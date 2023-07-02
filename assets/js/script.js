@@ -21,37 +21,44 @@ function changeDay() {
 
     el_monday.addEventListener("click", () => {
         // alert('monday schedule');
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
         // var newCard = "To Do: " + el_monday.getAttribute("title") + "<";
     });
     el_tuesday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
     });
     el_wednesday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
     });
     el_thursday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
     });
     el_friday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
     });
     el_saturday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
     });
     el_sunday.addEventListener("click", () => {
+        window.location.reload();
         let divForSchedule = document.createElement("div");
         divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
         container.appendChild(divForSchedule);
