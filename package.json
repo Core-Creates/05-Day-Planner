@@ -1,6 +1,7 @@
 {
     "event": "make bank",
     "time": "1 hour",
+    "day": "monday",
     "address": {
         "street": "10 Downing Street",
         "city": "London"
