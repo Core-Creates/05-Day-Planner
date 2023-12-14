@@ -16,43 +16,45 @@ function changeDay() {
     var el_friday = document.getElementById("friday");
     var el_saturday = document.getElementById("saturday");
     var el_sunday = document.getElementById("sunday");
-
+    var conode = container.childNodes.length;
     let container = document.querySelector(".container");
-    // location.reload();
+
     el_monday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
-        // var newCard = "To Do: " + el_monday.getAttribute("title") + "<";
+        window.reload();
     });
     el_tuesday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
+        window.reload();
     });
     el_wednesday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
+        window.reload();
     });
     el_thursday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
+        window.reload();
     });
     el_friday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
+        window.reload();
     });
     el_saturday.addEventListener("click", () => {
-        let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
-        container.appendChild(divForSchedule);
+        window.reload();
     });
     el_sunday.addEventListener("click", () => {
+        window.reload();
+    });
+}
+
+function addTodo() {
+    var el_Add = document.getElementById("addButton");
+    let container = document.querySelector(".container");
+
+    el_Add.addEventListener("click", () => {
+        var conode = container.childNodes.length;
+        var todoNum = "todo" + conode;
         let divForSchedule = document.createElement("div");
-        divForSchedule.innerHTML = "<div class=\"card\">"+ "To Do: " +"</div>";
+        divForSchedule.innerHTML = "<div id=\"todo " + conode + "\" class=\"card\">" + "To Do: " + "</div>";
         container.appendChild(divForSchedule);
     });
+}
+
+function getDate(date) {
+
 }
